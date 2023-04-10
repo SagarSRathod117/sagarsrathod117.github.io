@@ -30,7 +30,6 @@ ajaxUtils.sendGetRequest =
                        responseHandler,
                        isJsonResponse); 
       };
-  request.setHeader("Access-Control-Allow-Headers", "X-Requested-With, content-type");
     request.open("GET", requestUrl, true);
     request.send(null); // for POST only
   };
